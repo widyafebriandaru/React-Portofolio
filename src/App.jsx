@@ -4,7 +4,6 @@ import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
 import Timeline from "./components/Timeline";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Test from "./components/test";
 import Intro from "./components/intro";
 
 function App() {
@@ -69,7 +68,7 @@ function App() {
       <button
         type="button"
         onClick={handleThemeSwitch}
-        className="header-button bg-slate-400 dark:bg-orange-300 "
+        className="header-button bg-slate-500 dark:bg-orange-300 "
       >
         {theme === "dark" ? sun : moon}
       </button>
@@ -78,11 +77,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Intro />}></Route>
           <Route path="/portfolio" element={<Portfolio />}></Route>
-          <Route path="/test" element={<Test />}></Route>
           <Route path="/timeline" element={<Timeline />}></Route>
         </Routes>
       </Router>
-      <Footer />
     </>
   );
 }
