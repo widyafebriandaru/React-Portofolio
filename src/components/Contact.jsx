@@ -13,22 +13,22 @@ function Contact() {
             type="text"
             name="name"
             placeholder="Name"
-            className="p-2 bg-transparent placeholder:text-stone-900 dark:placeholder:text-stone-300 border-stone-900 dark:border-white border-2 rounded-md focus:outline-none"
+            className="p-2 bg-transparent dark:text-white placeholder:text-stone-900 dark:placeholder:text-stone-300 border-stone-900 dark:border-white border-2 rounded-md focus:outline-none"
           />
           <input
             type="text"
             name="email"
             placeholder="Email"
-            className="my-2 p-2 bg-transparent placeholder:text-stone-900 dark:placeholder:text-stone-300  border-stone-900 dark:border-white border-2 rounded-md focus:outline-none"
+            className="my-2 p-2 bg-transparent dark:text-white placeholder:text-stone-900 dark:placeholder:text-stone-300  border-stone-900 dark:border-white border-2 rounded-md focus:outline-none"
           />
           <textarea
             name="message"
             placeholder="Message"
             rows="10"
-            className="p-2 mb-4 bg-transparent placeholder:text-stone-900 dark:placeholder:text-stone-300  border-stone-900 dark:border-white border-2 rounded-md focus:outline-none"
+            className="p-2 mb-4 bg-transparent dark:text-white placeholder:text-stone-900 dark:placeholder:text-stone-300  border-stone-900 dark:border-white border-2 rounded-md focus:outline-none"
           />
           <button
-            type="button"
+            type="submit"
             className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white dark:text-stone-900 bg-stone-900 dark:bg-slate-100 drop-shadow-md hover:stroke-white"
           >
             Contact Me
