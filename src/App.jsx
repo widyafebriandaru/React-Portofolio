@@ -2,11 +2,9 @@ import React, { useEffect, useState } from "react";
 import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Intro from "./components/intro";
+import Intro from "./components/Intro";
 import RandomPage from "./components/RandomPage";
 import Button from "./components/Button";
-
-
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -74,7 +72,7 @@ function App() {
       >
         {theme === "dark" ? sun : moon}
       </button>
-    
+
       <Router>
         <Routes>
           <Route path="/" element={<Intro />}></Route>
@@ -83,7 +81,6 @@ function App() {
           <Route path="/*" element={<RandomPage />}></Route>
         </Routes>
       </Router>
-
     </>
   );
 }
