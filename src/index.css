@@ -6,14 +6,14 @@
     @apply fixed p-2 z-10 right-20 top-4 text-lg p-1 rounded-md;
   }
   .intro-button {
-    @apply block px-3 py-1 mr-2 bg-slate-200 dark:bg-neutral-600 rounded-sm;
+    @apply block px-3 py-1 mr-2 bg-slate-400 dark:bg-neutral-700 dark:text-white rounded-sm;
   }
   .button-container {
-    @apply flex w-full right-20 ;
+    @apply flex w-full right-20;
   }
 }
 
-@layer utilities{
+@layer utilities {
   .wrap {
     width: max-content;
   }
@@ -22,15 +22,14 @@
     white-space: nowrap;
     border-right: 1px solid black;
     padding-right: 5px;
-    animation: typing 5.5s steps(22) infinite alternate,
-                blink 0.7s infinite;
+    animation: typing 5.5s steps(22) infinite alternate, blink 0.7s infinite;
   }
   @keyframes typing {
     0% {
       width: 0%;
       visibility: hidden;
     }
-    50%{
+    50% {
       width: 100%;
     }
     100% {
