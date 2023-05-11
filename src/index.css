@@ -3,13 +3,13 @@
 @tailwind utilities;
 @layer components {
   .header-button {
-    @apply fixed p-2 z-10 right-20 top-4  text-lg p-1 rounded-md;
+    @apply fixed p-2 z-10 right-20 top-4 text-lg p-1 rounded-md;
   }
   .intro-button {
-    @apply block px-3 py-1 mx-2 bg-slate-200 dark:bg-neutral-600 rounded-sm;
+    @apply block px-3 py-1 mr-2 bg-slate-200 dark:bg-neutral-600 rounded-sm;
   }
   .button-container {
-    @apply flex;
+    @apply flex w-full right-20 ;
   }
 }
 

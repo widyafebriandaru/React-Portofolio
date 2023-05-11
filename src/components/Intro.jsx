@@ -1,3 +1,6 @@
+import Button from "./Button";
+
+
 function Intro(){
     return(
 
@@ -20,17 +23,7 @@ function Intro(){
               ini aku sedang memperdalam ilmu dalam bidang web developer
             </p>
             <div className="flex flex-row">
-              <button type="button" className="intro-button">
-                Portfolio
-              </button>
-
-              <button type="button" className="intro-button">
-                Timeline
-              </button>
-
-              <button type="button" className="intro-button">
-                Kontak
-              </button>
+            <Button/>
             </div>
           </div>
         </div>

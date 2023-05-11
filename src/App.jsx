@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
-import Timeline from "./components/Timeline";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Intro from "./components/intro";
+import RandomPage from "./components/RandomPage";
+import Button from "./components/Button";
+
+
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -72,14 +74,16 @@ function App() {
       >
         {theme === "dark" ? sun : moon}
       </button>
-
+    
       <Router>
         <Routes>
           <Route path="/" element={<Intro />}></Route>
           <Route path="/portfolio" element={<Portfolio />}></Route>
-          <Route path="/timeline" element={<Timeline />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/*" element={<RandomPage />}></Route>
         </Routes>
       </Router>
+
     </>
   );
 }

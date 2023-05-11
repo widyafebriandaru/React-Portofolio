@@ -1,20 +1,20 @@
 export default [
     {
-       title: 'Terminal Website',
-       imgUrl: '/assets/terminal-website.jpg',
-       stack: ['HTML', 'CSS', 'JavaScript'],
-       link: 'https://fkcodes.com',
+       title: 'Harijumat.com',
+       imgUrl: '/assets/1.png',
+       stack: ['HTML', 'CSS', 'JavaScript','Tailwind'],
+       link: 'https://widyafebriandaru.github.io/Tugas-Rise-HTML-Tailwind/',
     },
     {
-       title: 'Developer Portfolio',
-       imgUrl: '/assets/dev-portfolio.jpg',
-       stack: ['React', 'Tailwind', 'Vite'],
-       link: 'https://thehackershideout.com',
+       title: 'Batu Gunting Kertas',
+       imgUrl: '/assets/2.png',
+       stack: ['HTML', 'CSS', 'Javascript'],
+       link: 'https://widyafebriandaru.github.io/Gunting-Batu-Kertas/',
     },
     {
-       title: 'AI Nerf Gun',
-       imgUrl: '/assets/ai-nerf-gun.jpg',
-       stack: ['Python', 'C++', 'Robotics'],
-       link: 'https://youtu.be/A8eegxL82PI',
+       title: 'Image Slider',
+       imgUrl: '/assets/3.png',
+       stack: ['HTML', 'CSS', 'Javascript'],
+       link: 'https://widyafebriandaru.github.io/Image-Slider/',
     },
  ]
