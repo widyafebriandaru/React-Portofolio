@@ -1,9 +1,9 @@
 export default [
   {
-    title: "Harijumat.com",
+    title: "Marketplace (WIP)",
     imgUrl: "/assets/1.png",
     stack: ["HTML", "CSS", "JavaScript", "Tailwind"],
-    link: "https://widyafebriandaru.github.io/Tugas-Rise-HTML-Tailwind/",
+    link: "https://final-project-2-widyafebriandaru.vercel.app/",
   },
   {
     title: "Batu Gunting Kertas",
@@ -12,9 +12,9 @@ export default [
     link: "https://widyafebriandaru.github.io/Gunting-Batu-Kertas/",
   },
   {
-    title: "Image Slider",
+    title: "Website Bootcamp (WIP)",
     imgUrl: "/assets/3.png",
     stack: ["HTML", "CSS", "Javascript"],
-    link: "https://widyafebriandaru.github.io/Image-Slider/",
+    link: "https://harijumat-nrdl3u33u-widyafebriandaru.vercel.app/",
   },
 ];
