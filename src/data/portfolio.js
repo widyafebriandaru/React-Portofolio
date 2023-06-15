@@ -14,7 +14,7 @@ export default [
   {
     title: "Website Bootcamp (WIP)",
     imgUrl: "/assets/3.png",
-    stack: ["HTML", "CSS", "Javascript"],
+    stack: ["HTML", "CSS", "Javascript", "Tailwind"],
     link: "https://harijumat.vercel.app/",
   },
 ];
