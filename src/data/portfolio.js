@@ -15,6 +15,6 @@ export default [
     title: "Website Bootcamp (WIP)",
     imgUrl: "/assets/3.png",
     stack: ["HTML", "CSS", "Javascript"],
-    link: "https://harijumat-nrdl3u33u-widyafebriandaru.vercel.app/",
+    link: "https://harijumat.vercel.app/",
   },
 ];
