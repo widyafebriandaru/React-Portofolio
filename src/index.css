@@ -24,6 +24,8 @@
     padding-right: 5px;
     animation: typing 5.5s steps(22) infinite alternate, blink 0.7s infinite;
   }
+
+  
   @keyframes typing {
     0% {
       width: 0%;

@@ -1,20 +1,20 @@
 export default [
   {
-    title: "Marketplace (WIP)",
+    title: "E-Commerce",
     imgUrl: "/assets/1.png",
-    stack: ["HTML", "CSS", "JavaScript", "Tailwind"],
-    link: "https://final-project-2-widyafebriandaru.vercel.app/",
+    stack: ["HTML", "CSS", "JavaScript", "Tailwind", "React", "Redux", "NodeJS", "ExpressJS", "Sequelize", "MySQL"],
+    link: "https://e-commerce.wdyiafebriandaru.my.id/",
+  },
+  {
+    title: "Website Bootcamp (WIP)",
+    imgUrl: "/assets/3.png",
+    stack: ["HTML", "CSS", "Javascript", "Tailwind", "React"],
+    link: "https://harijumat.vercel.app/",
   },
   {
     title: "Batu Gunting Kertas",
     imgUrl: "/assets/2.png",
     stack: ["HTML", "CSS", "Javascript"],
     link: "https://widyafebriandaru.github.io/Gunting-Batu-Kertas/",
-  },
-  {
-    title: "Website Bootcamp (WIP)",
-    imgUrl: "/assets/3.png",
-    stack: ["HTML", "CSS", "Javascript", "Tailwind"],
-    link: "https://harijumat.vercel.app/",
   },
 ];

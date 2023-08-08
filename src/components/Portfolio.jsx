@@ -1,14 +1,17 @@
 import portfolio from "../data/portfolio";
 import PortfolioItem from "./PortfolioItem";
-import Button from "./Button";
 
 function Portfolio() {
   return (
-    <div className="bg-neutral-300 dark:bg-stone-900 flex flex-col items-center ">
-      <div className="flex flex-col md:flex-row items-center justify-center min-h-screen">
+    <div className="bg-neutral-300 dark:bg-stone-900 flex flex-col items-center">
+      <div className="text-base md:text-xl mb-3 font-medium text-stone-900 dark:text-stone-300">
+        <p>My Projects so far</p>
+      </div>
+      <div className="flex flex-col md:flex-row items-center justify-center mx-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-5">
-          {portfolio.map((project) => (
+          {portfolio.map((project, index) => (
             <PortfolioItem
+              key={index} // Add a unique key based on the index
               imgUrl={project.imgUrl}
               title={project.title}
               stack={project.stack}
@@ -17,8 +20,7 @@ function Portfolio() {
           ))}
         </div>
       </div>
-      <div className=" pb-8 ">
-        <Button />
+      <div className="pb-8">
       </div>
     </div>
   );

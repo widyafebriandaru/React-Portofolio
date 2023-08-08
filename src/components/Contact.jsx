@@ -1,9 +1,10 @@
-import Button from "./Button";
-
 function Contact() {
   return (
     <>
-      <div className="flex flex-col mx-auto pt-20 px-10 bg-neutral-300 dark:bg-stone-900 dark:bg-stone-900 items-center justify-center min-h-screen">
+      <div className="flex flex-col mx-auto pt-20 px-10 bg-neutral-300 dark:bg-stone-900 items-center justify-center min-h-screen">
+        <div className="text-base md:text-xl mb-3 font-medium text-stone-900 dark:text-stone-300">
+          <p>Leave me message</p>
+        </div>
         <form
           action="https://getform.io/f/c14e25fd-7936-4c53-a95c-fc7aadba59a1"
           method="POST"
@@ -34,9 +35,7 @@ function Contact() {
             Contact Me
           </button>
         </form>
-        <div className="mt-11">
-          <Button />
-        </div>
+        <div className="mt-11"></div>
       </div>
     </>
   );
