@@ -1,37 +1,42 @@
 export default [
-    {
-       year: 'Today',
-       title: 'YouTube Content Creator',
-       duration: '6 years',
-       details: 
-          'My humble attempt at building my version of the digital world one step at a time by documenting my coding journey and creating software engineering and computer science content to help those coming behind me.',
-    },
-    {
-         year: 'Today',
-         title: 'Solo Indie Developer',
-         duration: '4 years',
-         details:
-             "I'm a solo indie developer building software for myself and clients to showcase on YouTube. All coding projects are built from the ground up, from planning and designing all the way to solving real-life problems with code.",
-     },
-     {
-         year: '2019',
-         title: 'Software Engineer',
-         duration: '2 years',
-         details:
-             'I helped build an enterprise application for a Fortune 500 company in an Agile team setting. Our tech stack consisted of TypeSciprt, Angular, Java, Gradle, and a handful of other languages and tools.',
-     },
-     {
-         year: '2018',
-         title: "Bachelor's Degree in Computer Science",
-         duration: '5 years',
-         details:
-             'I pursued the knowledge that a computer science degree had to offer. I learned about computer architecture, computer science theory, an array of programming, and aspects of artificial intelligence.',
-     },
-     {
-         year: '2013',
-         title: 'First Line of Code',
-         duration: 'the beginning',
-         details:
-             "I wrote my first line of real code that started this journey into digital craftsmanship that I never could've imagined, especially as someone who never saw themselves as anything other than a blue collar worker.",
-     },
- ]
+  {
+    year: "Today",
+    title: "Fullstack Developer",
+    duration: "less than a year",
+    details:
+    "I've embarked on an exciting new adventure in the realm of IT. My initial foray involves crafting e-commerce and bootcamp websites entirely from scratch – from the frontend to the backend. Step by step, I'm chronicling this coding odyssey, breathing life into my journey through documentation, and unfurling a tapestry of innovations as I venture onward.",
+      skill: ["HTML", "CSS", "JavaScript", "Tailwind", "React", "Redux", "NodeJS", "ExpressJS", "Sequelize", "MySQL", "Linux"],
+  },
+  {
+    year: "2022",
+    title: "Customer Engineer",
+    duration: "a year",
+    details:
+      "I work as a field engineer in Lampung. My role involves maintaining, repairing, planning, and analyzing Cash Recycle Machines (CRMs) – both their hardware and software – under the Hitachi brand. Additionally, I guide and assist customers, often bank staff, in troubleshooting issues with the Cash Machines. Beyond that, I'm also tasked with investigating problems like counterfeit cash, as well as resolving issues related to CCTV and LED displays.",
+      skill: ["Electrical", "Mechanical", "Electronics", "Network Systems", "Software Troubleshooting", "System Analysis"],
+  },
+  {
+    year: "2021",
+    title: "Solar Panel Maintenance Staff",
+    duration: "2 months",
+    details:
+      "Being part of the maintenance team, I focus on optimizing the performance of solar panels. This involves carrying out preventive maintenance and thorough cleaning to ensure their top-notch operation.",
+      skill: ["Photovoltaic","Electrical Strong Current"],
+  },
+  {
+    year: "2021",
+    title: "Freelance Linguistic Audio Analyze",
+    duration: "less than a year",
+    details:
+      "My job involves analyzing English speech audio, creating captions, editing, removing noise, and inputting the results into the system.",
+      skill: ["English","Linguistic","Audio Analyze", "Ms Excel", "Teamwork"],
+  },
+  {
+    year: "2016-2021",
+    title: "Pursuing a bachelor's degree in Electrical Engineering",
+    duration: "4.5 years",
+    details:
+      "For my Final Project, I've created a Communication Device encompassing both hardware and software designed for emergency situations. I constructed three devices that can communicate seamlessly without relying on a Base Transceiver Station (BTS), utilizing cutting-edge Long Range (LoRa) technology.",
+      skill: ["C","C++", "IOT", "Communication System", "Digital Signal Processing", "Electronics", "Microcontroller", "LoRa"],
+  },
+];

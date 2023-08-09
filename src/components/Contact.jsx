@@ -30,9 +30,9 @@ function Contact() {
           />
           <button
             type="submit"
-            className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white dark:text-stone-900 bg-stone-900 dark:bg-slate-100 drop-shadow-md hover:stroke-white"
+            className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white dark:text-stone-900 bg-stone-900 dark:bg-slate-100 drop-shadow-md hover:bg-slate-400 dark:hover:bg-orange-400"
           >
-            Contact Me
+            Submit
           </button>
         </form>
         <div className="mt-11"></div>

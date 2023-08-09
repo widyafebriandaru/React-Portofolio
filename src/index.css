@@ -25,7 +25,19 @@
     animation: typing 5.5s steps(22) infinite alternate, blink 0.7s infinite;
   }
 
+  @keyframes theme-transition {
+    0% {
+      opacity: 0.1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
   
+  .theme-transition {
+    animation: theme-transition 2s ease;
+  }
+
   @keyframes typing {
     0% {
       width: 0%;

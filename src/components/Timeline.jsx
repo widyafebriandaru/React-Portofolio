@@ -5,7 +5,7 @@ import Title from "./Title";
 function Timeline() {
   return (
     <>
-    <div className="timeline-container flex flex-col md:flex-row justify-center bg-neutral-300 dark:bg-stone-900">
+    <div className="timeline-container flex flex-col md:flex-row justify-center bg-neutral-300 dark:bg-stone-900 md:px-0 px-10">
       <div className="w-full md:w-7/12">
         <Title>Timeline</Title>
         {timeline.map((item, index) => (
@@ -15,6 +15,7 @@ function Timeline() {
             title={item.title}
             duration={item.duration}
             details={item.details}
+            skill={item.skill}
           />
         ))}
       </div>
