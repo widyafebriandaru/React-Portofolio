@@ -2,6 +2,7 @@ import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import Timeline from "./Timeline";
 import { forwardRef } from "react";
+import Footer from "./Footer";
 
 const Intro = forwardRef(() => {
   return (
@@ -29,6 +30,7 @@ const Intro = forwardRef(() => {
       <Portfolio />
       <Timeline />
       <Contact />
+      <Footer />
     </>
   );
 });

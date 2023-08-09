@@ -31,7 +31,6 @@ function App() {
 
   return (
     <>
-      <Intro />
       <div className={`theme-transition`}>
         <ThemeButton theme={theme} handleThemeSwitch={handleThemeSwitch} />
       </div>
