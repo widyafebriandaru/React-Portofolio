@@ -2,6 +2,7 @@ export default [
   {
     title: "E-Commerce",
     imgUrl: "/assets/1.png",
+    imgGif:"/assets/1.gif",
     stack: [
       "HTML",
       "CSS",
@@ -17,18 +18,22 @@ export default [
     link: "https://e-commerce.wdyiafebriandaru.my.id/",
     github: "https://github.com/widyafebriandaru/E-Commerce-Frontend",
     github2: "https://github.com/widyafebriandaru/E-Commerce-Backend",
+    desc:"This project showcases an engaging E-Commerce website tailored for selling clothes and accessories. Powered by React and enhanced with the responsive design of Tailwind CSS, the platform provides seamless shopping experiences. The integration of Node.js and Express.js with MySQL database on the backend ensures efficient functionality, making it a comprehensive solution for online retail."
   },
   {
     title: "Website Bootcamp",
     imgUrl: "/assets/3.png",
+    imgGif:"/assets/2.gif",
     stack: ["HTML", "CSS", "Javascript", "Tailwind", "React"],
     link: "https://bootcamp.wdyiafebriandaru.my.id/",
     github: "https://github.com/widyafebriandaru/portofolio-harijumat",
     // link: "https://harijumat.vercel.app/",
+    desc: "Highlighting my proficiency in web development, this project encompasses a dynamic Bootcamp website created using React and styled with the versatile Tailwind CSS framework. With an emphasis on user experience, the site offers comprehensive information about various bootcamp programs, featuring a clean and modern design that ensures easy navigation and engagement.",
   },
   {
     title: "Batu Gunting Kertas",
     imgUrl: "/assets/2.png",
+    imgGif:"/assets/3.gif",
     stack: ["HTML", "CSS", "Javascript"],
     link: "https://widyafebriandaru.github.io/Gunting-Batu-Kertas/",
     github: "https://github.com/widyafebriandaru/portofolio-harijumat",

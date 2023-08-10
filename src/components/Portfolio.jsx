@@ -20,6 +20,8 @@ function Portfolio() {
                 link={project.link}
                 github={project.github}
                 github2={project.github2}
+                desc={project.desc}
+                imgGif={project.imgGif}
               />
             ))}
           </div>
