@@ -15,12 +15,15 @@ export default [
       "MySQL",
     ],
     link: "https://e-commerce.wdyiafebriandaru.my.id/",
+    github: "https://github.com/widyafebriandaru/E-Commerce-Frontend",
+    github2: "https://github.com/widyafebriandaru/E-Commerce-Backend",
   },
   {
     title: "Website Bootcamp",
     imgUrl: "/assets/3.png",
     stack: ["HTML", "CSS", "Javascript", "Tailwind", "React"],
     link: "https://bootcamp.wdyiafebriandaru.my.id/",
+    github: "https://github.com/widyafebriandaru/portofolio-harijumat",
     // link: "https://harijumat.vercel.app/",
   },
   {
@@ -28,5 +31,6 @@ export default [
     imgUrl: "/assets/2.png",
     stack: ["HTML", "CSS", "Javascript"],
     link: "https://widyafebriandaru.github.io/Gunting-Batu-Kertas/",
+    github: "https://github.com/widyafebriandaru/portofolio-harijumat",
   },
 ];
